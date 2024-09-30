@@ -1,0 +1,12 @@
+{
+  "name": "npm_config_user_agent",
+  "version": "0.0.1",
+  "dependencies": {},
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "typings": "./index.d.ts",
+  "directories": {
+    "bin": "bin"
+  }
+}
