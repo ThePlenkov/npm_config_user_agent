@@ -3,6 +3,7 @@
   "description": "npm_config_user_agent parser",
   "author": "",
   "license": "ISC",
+  "private":true,
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@nx/eslint": "19.8.2",
