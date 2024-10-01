@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-import { npmConfigUserAgent } from '../index';
-console.log(npmConfigUserAgent().engine);
+const { npmConfigUserAgent } = require('../index.cjs');
+console.log(npmConfigUserAgent().pm);

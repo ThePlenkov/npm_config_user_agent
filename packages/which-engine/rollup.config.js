@@ -12,7 +12,7 @@ module.exports = withNx(
       {
         input: 'packages/which-engine/bin-out',
         glob: '*',
-        output: './.bin',
+        output: 'bin',
       },
     ],
   },
