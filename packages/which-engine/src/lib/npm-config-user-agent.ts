@@ -4,7 +4,7 @@ import process from "node:process";
 //npm/10.7.0 node/v18.20.4 linux x64 workspaces/false
 const npm_config_user_agent = process.env["npm_config_user_agent"] || '';
 
-function npmConfigUserAgent() {
+export function npmConfigUserAgent() {
   const [packageManager, engine, platform, arch, ...rest] = npm_config_user_agent.split(" ").filter(f => !["npm/?"].includes(f));
   const [packageManagerName, packageManagerVersion] = packageManager ? packageManager.split("/") : [];
   const [engineName, engineVersion] = engine ? engine.split("/") : [];
@@ -22,4 +22,3 @@ function npmConfigUserAgent() {
   };
 }
 
-export default npmConfigUserAgent();

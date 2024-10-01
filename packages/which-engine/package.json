@@ -1,8 +1,7 @@
 {
   "name": "which-engine",
-  "version": "0.0.9",
+  "version": "0.0.1",
   "dependencies": {},
-  "type": "module",
   "main": "./index.cjs",
   "module": "./index.js",
   "typings": "./index.d.ts",
@@ -14,5 +13,5 @@
     "url": "git+https://github.com/theplenkov-npm/which-engine.git",
     "directory": "packages/which-engine"
   },
-  "license":"MIT"
+  "license": "MIT"
 }

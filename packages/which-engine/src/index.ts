@@ -1,3 +1,1 @@
-import env from './lib/npm-config-user-agent';
-
-export default env;
+export * from './lib/npm-config-user-agent';

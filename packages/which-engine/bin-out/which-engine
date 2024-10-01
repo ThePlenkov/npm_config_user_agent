@@ -1,5 +1,3 @@
 #!/usr/bin/env node
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var npm_config_user_agent_1 = require("../src/lib/npm-config-user-agent");
-console.log(npm_config_user_agent_1.default.engine);
+import { npmConfigUserAgent } from '../index';
+console.log(npmConfigUserAgent().engine);
