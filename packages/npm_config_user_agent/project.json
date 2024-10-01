@@ -1,12 +1,12 @@
 {
   "name": "npm_config_user_agent",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/npm_config_user_agent/src",
+  "sourceRoot": "{projectRoot}/src",
   "projectType": "library",
   "release": {
     "version": {
       "generatorOptions": {
-        "packageRoot": "dist/{projectRoot}",
+        "packageRoot": "{projectRoot}",
         "currentVersionResolver": "git-tag"
       }
     }
@@ -17,10 +17,10 @@
       "executor": "@nx/vite:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/npm_config_user_agent",
-        "main": "packages/npm_config_user_agent/src/index.ts",
-        "tsConfig": "packages/npm_config_user_agent/tsconfig.lib.json",
-        "assets": ["packages/npm_config_user_agent/*.md"]
+        "outputPath": "dist/{projectRoot}",
+        "main": "{projectRoot}/src/index.ts",
+        "tsConfig": "{projectRoot}/tsconfig.lib.json",
+        "assets": ["{projectRoot}/*.md"]
       }
     },
     "nx-release-publish": {
