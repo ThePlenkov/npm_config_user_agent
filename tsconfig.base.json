@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "which-engine": ["packages/which-engine/src/index.ts"]      
+      "which-engine": ["packages/which-engine/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
