@@ -33,12 +33,15 @@ node
 bun run ./which-engine
 node
 
- deno run --allow-env --unstable-sloppy-imports 
-./which-engine
+deno run --allow-env --unstable-sloppy-imports ./which-engine
 deno
+```
 
-
-
+where `which-engine` is ts file:
+```
+#!/usr/bin/env -S node --import tsx
+import user_agent from '../src/lib/npm-config-user-agent';
+console.log(user_agent.engine);
 ```
 
 ### Programmatically as API
