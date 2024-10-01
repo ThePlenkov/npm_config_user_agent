@@ -7,11 +7,29 @@
       "cache": true,
       "dependsOn": ["^build"],
       "inputs": ["default", "^default"]
+    },
+    "nx-release-publish": {
+      "dependsOn": ["build"]
     }
   },
   "release": {
+    "versionPlans": false,
+    "projectsRelationship": "fixed",
+    "changelog": {
+      "projectChangelogs": {
+        "entryWhenNoChanges": false
+      }
+    },
     "version": {
-      "preVersionCommand": "npx nx run-many -t build"
+      "conventionalCommits": true
+    },
+    "conventionalCommits": {
+      "types": {
+        "docs": false,
+        "chore": {
+          "changelog": false
+        }
+      }
     }
   },
   "plugins": [
