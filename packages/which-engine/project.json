@@ -1,5 +1,5 @@
 {
-  "name": "npm_config_user_agent",
+  "name": "which-engine",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "{projectRoot}/src",
   "projectType": "library",

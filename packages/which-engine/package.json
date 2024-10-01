@@ -12,6 +12,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theplenkov-npm/npm_config_user_agent.git",
-    "directory": "packages/npm_config_user_agent"
+    "directory": "packages/which-engine"
   }
 }
