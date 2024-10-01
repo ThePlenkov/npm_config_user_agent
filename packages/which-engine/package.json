@@ -13,5 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/theplenkov-npm/which-engine.git",
     "directory": "packages/which-engine"
-  }
+  },
+  "license":"MIT"
 }
