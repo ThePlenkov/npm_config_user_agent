@@ -48,8 +48,8 @@ console.log(user_agent.engine);
 ### Programmatically as API
 
 ```
-import user_agent from "./npm-config-user-agent"
-console.log(user_agent);
+import env from "which-engine"
+console.log(env);
 ```
 
 prints something like this
